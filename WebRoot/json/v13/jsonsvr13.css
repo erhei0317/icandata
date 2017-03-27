@@ -1,0 +1,195 @@
+﻿@charset "UTF-8";
+/* 
+
+若需要定制或修改此样式表，请拷贝到目录再修改。
+配色方案1
+#446535
+#748C42
+#9BBB59
+#BED393
+#EBF4D8
+#F2F4F6
+#F3F3F3
+
+配色方案2
+#99CC33
+#FF9900
+#FFCC00
+
+*/
+html, body, div, table {
+	font-size: 16px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+input{
+	font-size: 16px;
+}
+a {
+	text-decoration: none;
+}
+
+
+/*数据表格或表单区*/
+.cidatalist {
+}
+
+/*消息框*/
+.cimessage {
+	color: #FFFFFF;
+	padding: 10px;
+	margin: 5px;
+	border-radius: 5px;
+}
+
+/*标题区*/
+.cititle {
+	text-align: center;
+	font-size: 18px;
+	font-family: 'Microsoft YaHei';
+	padding: 10px;
+	color: #446535;
+	overflow-wrap: break-word;
+}
+
+/*工具栏*/
+.citoolbar {
+	background-color: #EBF4D8;
+	padding-left: 8px;
+	padding-bottom: 8px;
+	margin-bottom: 8px;
+	overflow: hidden;
+	text-align: center;
+}
+
+/*功能普通按钮,增加,删除,编辑,保存,取消,搜索,打印,统计,刷新,垃圾箱*/
+.cibutton,.cibtnsubmit,.cibtnnew, .cibtndelete, .cibtnedit, .cibtnsearch, .cibtnprint, .cibtnstatic, .cibtnsave, .cibtncancel, .cibtnrefresh, .cibtntrash {
+	color: #748C42;
+	background-color: #EBF4D8;
+	border: solid 1px #9BBB59;
+	padding-top: 8px;
+	padding-left: 36px;
+	padding-bottom: 8px;
+	padding-right: 8px;
+	margin-top: 8px;
+	margin-right: 8px;
+	cursor: pointer;
+	background-repeat: no-repeat;
+	background-position-x: 8px;
+	background-position-y: 5px;
+	border-radius: 3px;
+}
+
+/*工具栏按钮在鼠标滑动时的样式*/
+.cibtnover {
+	color: #FFFFFF;
+	background-color: #748C42;
+	border-color: solid 1px #F2F4F6;
+	border-radius: 3px;
+}
+
+/*搜索框*/
+.citextsearch {
+	padding: 7px;
+
+}
+/*内容区*/
+.cicontent {
+	text-align: center;
+}
+
+/*表格*/
+..citable, .citablel, ..citable, .citablell {
+	border-collapse: collapse;
+	width:100%;
+}
+
+	..citable, .citablel td {
+		text-align: center;
+		padding: 8px;
+		border: solid 1px #DDDDEF;
+	}
+
+	..citable, .citablel th {
+		text-align: center;
+		padding: 8px;
+		border: solid 1px #DDDDEF;
+		background-color: #F2F4F6;
+	}
+
+
+/*迭代区的链接*/
+.citbody a {
+	margin-right: 8px;
+}
+
+/*奇数行的样式*/
+.trodd {
+}
+
+/*偶数行的样式*/
+.treven {
+}
+
+/*表格行鼠标滑动时的样式*/
+.trover {
+	background-color: #EBF4D8;
+}
+
+
+/*分页栏*/
+.cipager {
+	text-align: center;
+}
+
+.cipager {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+	.cipager span {
+		display: inline-block;
+		margin-right: 10px;
+		color: #446535;
+	}
+
+	.cipager input {
+		margin: 5px;
+		width: 60px;
+		padding: 4px;
+	}
+
+	.cipager .textgoto {
+		width: 40px;
+	}
+
+
+
+/*表单*/
+.cieditor {
+}
+
+/*数据字段标题*/
+.fldtitle {
+	font-weight: bold;
+}
+
+/*数据字段*/
+.cifield {
+	padding: 4px;
+}
+
+/*验证码*/
+.ciVcode {
+	padding: 4px;
+}
+
+/**/
+.validerror{
+	border:solid 2px red;
+}
+
